@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hospital Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="about-us.html">Doctors</a></li>
+                <li><a href="doctors-list">Patients</a></li>
+                <li><a href="#appointments">Appointments</a></li>
+                <li><a href=" </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="doctors">
+        <h2>Doctors</h2>
+        <ul id="doctor-list">
+            <!-- Doctors will be dynamically added here -->
+        </ul>
+        <form id="add-doctor-form">
+            <h3>Add Doctor</h3>
+            <input type="text" id="doctor-name" placeholder="Name" required>
+            <input type="text" id="doctor-specialization" placeholder="Specialization" required>
+            <button type="submit">Add Doctor</button>
+        </form>
+    </section>
+
+    <section id="patients">
+        <h2>Patients</h2>
+        <ul id="patient-list">
+            <!-- Patients will be dynamically added here -->
+        </ul>
+        <form id="add-patient-form">
+            <h3>Add Patient</h3>
+            <input type="text" id="patient-name" placeholder="Name" required>
+            <input type="number" id="patient-age" placeholder="Age" required>
+            <input type="text" id="patient-phone" placeholder="Phone" required>
+            <textarea id="patient-address" placeholder="Address" required></textarea>
+            <button type="submit">Add Patient</button>
+        </form>
+    </section>
+
+    <section id="appointments">
+        <h2>Appointments</h2>
+        <ul id="appointment-list">
+            <!-- Appointments will be dynamically added here -->
+        </ul>
+        <form id="add-appointment-form">
+            <h3>Schedule Appointment</h3>
+            <input type="text" id="appointment-patient" placeholder="Patient Name" required>
+            <input type="text" id="appointment-doctor" placeholder="Doctor Name" required>
+            <input type="date" id="appointment-date" required>
+            <input type="time" id="appointment-time" required>
+            <button type="submit">Schedule</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

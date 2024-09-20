@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video  width="800" height ="200"src="Apollo.mp4" controls loop autoplay>Apollo</video>
+    <h1>DOCTORS</h1>
+    <h3>select your doctor</h3>
+    <select name="doctors" id="doctors">
+           <h3>select your doctor
+        
+            <option value="Sushanshu yadav -heart specialist">Sushanshu yadav -heart specialist</option>
+            <option value=" keshav mishra- hair fall specialist">keshav mishra- hair fall specialist</option>
+            <option value="mayank nehra--foog poisioning specialist">mayank nehra--foog poisioning specialist</option>
+            <option value="bhavish - semester back specialist">bhavish - semester back specialist</option>
+            <option value="manoj - alcohol specialist">manoj - alcohol specialis</option>
+        </select>
+   <div></div>
+    <h3>select your time slot</h3>
+    <div></div><select name="timing" id="timing">
+        <option value="10 am ">10 am</option>
+        <option value="11 am">11 am</option>
+        <option value="12 pm">12 pm</option>
+        <option value="1 pm">1 pm</option>
+        <option value="2 to 5 pm">2 to 5 pm</option>
+    </select>timing--10 am to 6 pm
+   </div>
+</select>
+</body>
+</html>
